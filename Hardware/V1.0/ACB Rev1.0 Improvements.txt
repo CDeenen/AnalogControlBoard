@@ -1,0 +1,27 @@
+AD7616:
+-Connect pin 32 (REFGND) directly to GND of C35
+-Connect pin 34 (REFINOUTGND) to GND
+-Remove C39
+-Add 100nF cap parallel to C40
+
+Resonator:
+-Add pin 1 marking
+
+LEDs:
+-Add polarity marking
+
+LTC2666:
+-Move pin 1 marking away from bare copper
+
+MMCX connectors:
+-Wider slots for horizontal connectors
+
+EEPROM:
+-Add pin 1 marking
+-Correct footprint (SOIC-8_3.9x4.9mm_pitch1.27mm)
+
+1117-33:
+-Add polarity marking to tantalum caps (C17, C18)
+
+FT232RL:
+-Remove ISPsel jumper (J0)

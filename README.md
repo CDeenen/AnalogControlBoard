@@ -3,49 +3,49 @@ The analog control board (ACB) is a complete solution for all your analog and di
 
 ## Specs
 ### Microcontroller
-Device:			NXP LPC1768
-Architecture:		ARM Cortex-M3
-Operation frequency:	96 MHz
-Digital outputs:		3.3V, 4mA (short-circuit max: 50mA)
-Digital inputs:		5V tolerant, -4mA (short-circuit max: -45mA)
-Communication:	USB to serial (micro USB port)
-Clock:			Real-time clock
+Device:			NXP LPC1768<br>
+Architecture:		ARM Cortex-M3<br>
+Operation frequency:	96 MHz<br>
+Digital outputs:		3.3V, 4mA (short-circuit max: 50mA)<br>
+Digital inputs:		5V tolerant, -4mA (short-circuit max: -45mA)<br>
+Communication:	USB to serial (micro USB port)<br>
+Clock:			Real-time clock<br>
 
 ### Digital in/outputs
-GPIO:			32
-PWM:			4
-Hardware interrupts	2
-Serial:			2x SPI, 2x I2C, 2x UART, 1x Ethernet, 1x USB Host/Device
+GPIO:			32<br>
+PWM:			4<br>
+Hardware interrupts	2<br>
+Serial:			2x SPI, 2x I2C, 2x UART, 1x Ethernet, 1x USB Host/Device<br>
 
 ### ADC
-Device:			Analog Devices AD7616
-ADC type:		Successive approximation register (SAR)
-Analog inputs: 		12 single-ended/pseudodifferential (MMCX connectors)
-4 single-ended (pin header)
-Input buffer with 1 MΩ input impedance
-Resolution: 		16 bit
-Measurement range: 	Software selectable ±2.5V, ±5V, ±10V
-Maximum potential:	±21V
-Oversampling:		Up to 128x
-Throughput rate:	1 MSPS (approximate theoretical max for 2 channels)
-Accuracy:		±2mV (±2.5V span), ±5mV (±5V span), ±7mV (±10V span)
+Device:			Analog Devices AD7616<br>
+ADC type:		Successive approximation register (SAR)<br>
+Analog inputs: 		12 single-ended/pseudodifferential (MMCX connectors)<br>
+4 single-ended (pin header)<br>
+Input buffer with 1 MΩ input impedance<br>
+Resolution: 		16 bit<br>
+Measurement range: 	Software selectable ±2.5V, ±5V, ±10V<br>
+Maximum potential:	±21V<br>
+Oversampling:		Up to 128x<br>
+Throughput rate:	1 MSPS (approximate theoretical max for 2 channels)<br>
+Accuracy:		±2mV (±2.5V span), ±5mV (±5V span), ±7mV (±10V span)<br>
  
 ### DAC
-Device: 			Linear Technology LTC2666
-Analog outputs: 	8 single-ended
-Typically 0.08 Ω output impedance
-Up to ±14 mA current sinking/sourcing
-Resolution: 		16 bit
-Measurement range: 	Software selectable 0-5V, 0-10V, ±2.5V, ±5V, ±10V
-Throughput rate:	2 MSPS (approximate theoretical max for 1 channel)
+Device: 			Linear Technology LTC2666<br>
+Analog outputs: 	8 single-ended<br>
+Typically 0.08 Ω output impedance<br>
+Up to ±14 mA current sinking/sourcing<br>
+Resolution: 		16 bit<br>
+Measurement range: 	Software selectable 0-5V, 0-10V, ±2.5V, ±5V, ±10V<br>
+Throughput rate:	2 MSPS (approximate theoretical max for 1 channel)<br>
 
 ### EEPROM
-Device:			Microchip AT25230B
-Memory size:		32 Kbit
-Page size:		32 byte
-Transfer speed:		1 MHz
+Device:			Microchip AT25230B<br>
+Memory size:		32 Kbit<br>
+Page size:		32 byte<br>
+Transfer speed:		1 MHz<br>
 
 ### Power requirements:
-VCC:			5V-5.5V 500mA
-Analog positive:		12.5 to 24V 200mA
-Analog negative:	-24 to -12.5V 200mA
+VCC:			5V-5.5V 500mA<br>
+Analog positive:		12.5 to 24V 200mA<br>
+Analog negative:	-24 to -12.5V 200mA<br>
